@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/6MmgxkYGvuE.jpg" alt="My avatar" class="avatar">
+        <h1 class="title_main">Nastya Vasukova | CV Page</h1>
+        <h2 class="title_subtitle">Fronted developer</h2>
+    </header>
+
+    <main>
+        <section class="skills">
+            <h2>Skills</h2>
+            <details>
+                <summary>My skills:</summary>
+                <ol class="skills__ol">
+                    <li>1.Figma</li>
+                    <li>2.VS Code</li>
+                    <li>3.HTML&CSS</li>
+                    <li>4.Blender</li>
+                </ol>
+            </details>
+        </section>
+        <article class="article">
+            <h2>Article about me</h2>
+            <p>
+                I am Anastasia. I go to art school. I study at the "Dyatkovo city gymnasium". I am in the 8th class at school. I love to draw.
+            </p>
+        </article>
+        <section class="gallery">
+            <h3>My works</h3>
+            <img src="img/0c85f57e130e611d50d94d1864bccd5e.jpg" alt="My work #1">            
+            <img src="img/181500-estetichnye-iz-pinteresta-33.jpg" alt="My work #2">            
+            <img src="img/shutterstock_339813557.jpg" alt="My work #3">            
+        </section>
+        <hr class="separator">
+        <section class="video">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/5CODNk_D0GM" title="Los Pingüinos me la van a Mascar 10 Hours" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+       
+        <section class="hobbies">
+            <h3>My hobbies</h3>
+            <details>
+                <summary>Hobbies list</summary>
+                <ul>
+                    <li>Create 3D Arts</li>
+                    <li>Watch Youtube</li>
+                    <li>Learn new technology</li>
+                </ul>
+            </details>
+    </section>
+
+    <section class="education">
+        <h3>Education</h3>
+        <table class="education__table">
+            <thead>
+                <tr>
+                    <th>Scool</th>
+                    <th>Profession</th>
+                    <th>Years</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>IT-Cube</td>
+                    <td>Web Designer</td>
+                    <td>2023 - 2024</td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td>МАОУ ДГГ</td>
+                        <td>Obsee</td>
+                        <td>2024</td>
+                    </tr>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="quote">
+        <blockquote>
+            Мы понимаем на уровне понимания 👻👽 <i>© Джейсем Стетхен</i>
+        </blockquote>
+    </section>
+
+    <section class="interaction">
+        <form action="mailto:vasukova-2009@mail.ru" method="post" class="interaction__form">
+           <fieldset>
+            <legend>Required fields</legend>
+            <label for="firstNameID">First Name</label>
+            <input type="text" class="form__input" id="firstNameID" name="firstName" placeholder="Type your First Name" required>
+
+            <label for="secondNameID">Second Name</label>
+            <input type="text" class="form__input" id="secondNameID" name="secondName" placeholder="Type your Second Name" required>
+
+            <label for="emailID">Email</label>
+            <input type="email" name="email" id="emailID" placeholder="Type your mail" class="form__input" required>
+           </fieldset>
+           <textarea name="questions" id="questionsID" cols="30" rows="10" class="questions" placeholder="Ask me"></textarea>
+           <button type="submit" class="submit">Submit</button>
+        </form>
+    </section>
+    </main>
+
+    <footer>
+        <address class="contacts">
+            <br>
+            <a href="tel:+78005553535" class="contacts__link">+78005553535</a>
+            <br>
+            <a href="mailto:vasukova-2009@mail.ru" class="contacts__link">mailto:vasukova-2009@mail.ru</a>
+        </address>
+    </footer>
+</body>
+</html>
